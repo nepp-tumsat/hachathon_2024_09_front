@@ -2,22 +2,31 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const posts = Array.from({ length: 100 }, (_, index) => ({
+    id: index + 1,
+    text: `これは投稿番号 ${index + 1} です。読書祭りのタイムラインにようこそ！`
+  }));
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>祭りだ！祭りだ！読書祭りだ！！！</h1>
       </header>
+
+      <main className="body">
+        <div>
+          <p>読書祭り</p>
+        </div>
+        {posts.map(post => (
+            <div key={post.id} className="post-card">
+              <p>{post.text}</p>
+            </div>
+          ))}
+      </main>
+
+      <footer>
+        <img src={logo} alt="App logo" />
+      </footer>
     </div>
   );
 }

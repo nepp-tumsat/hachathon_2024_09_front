@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.body{
+  background-color: #61dafb;
+  font-size: 30px;
+  min-height: 300vh;
+}
+
+.scroll-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0 auto;
+  overflow-y: scroll; 
+  border: #000;
+  background-color: #f5f5f5;
+}
+
+.post-card {
+  width: 90%; 
+  max-width: 350px; 
+  margin: 10px auto; 
+  background-color: green; 
+  color: white; 
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.post-card p {
+  margin: 0;
 }
