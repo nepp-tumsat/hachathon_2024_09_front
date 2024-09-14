@@ -26,15 +26,15 @@
   width: 200px;
   height: 200px;
   border: 1px solid #000;
-  padding: 10px;
+  padding: 1px;
   overflow-y: scroll; 
   border: 1px solid #000;
   background-color: #f5f5f5;
 }
 
 .post-card {
-  width: 90%;  
-  margin: 10px auto; 
+  width: 95%;  
+  margin: 3px auto; 
   background-image: url("/public/14199.webp");
   color: white; 
   padding: 15px;
