@@ -17,11 +17,15 @@ function App() {
         <div>
           <p>読書祭り</p>
         </div>
+
+        <div className='scroll-box'>
         {posts.map(post => (
             <div key={post.id} className="post-card">
               <p>{post.text}</p>
             </div>
           ))}
+        </div>
+
       </main>
 
       <footer>
