@@ -1,33 +1,27 @@
 import './/ReviewShowScene.css';
+import axios from 'axios';
+import React from 'react';
 
 function App() {
+  const [data, setData] = React.useState();
+  const url = "http://localhost:8000/get_reviews";
 
-  var info = "";
-  <script>
-  function fetchData(){
-    fetch('http://localhost:8000/get_reviews')
-    .then(response => response.json())
-    .then(data => {
-      const resultDiv = document.getElementById('result');
-      document.write(resultDiv);
-      info = resultDiv;
-    })
-    .catch(error => {
-      console.error('エラー:',error);
+  const GetData = () => {
+    axios.get(url).then((res) => {
+      setData(res.data);
     })
   }
-  </script>
 
-  const posts = Array.from({ length: 100 }, (_, index) => ({
+  const posts = Array.from({ length: data ? data.length : 0}, (_, index) => ({
     id: index + 1,
-    text: `これは投稿番号 ${index + 1} です。読書祭りのタイムラインにようこそ！`
+    text: data && data[index] ? (index+1)+' : '+ data[index].title : 'データがありません'
   }));
 
   return (
     <div className="App">
       <header className="App-header">
         <h1>祭りだ！祭りだ！読書祭りだ！！！</h1>
-        <h1>info</h1>
+        <h1>{GetData()}</h1>
       </header>
 
       <main className="body">
