@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './/ReviewShowScene.css';
 
 function App() {
   const posts = Array.from({ length: 100 }, (_, index) => ({
@@ -27,10 +26,6 @@ function App() {
         </div>
 
       </main>
-
-      <footer>
-        <img src={logo} alt="App logo" />
-      </footer>
     </div>
   );
 }
