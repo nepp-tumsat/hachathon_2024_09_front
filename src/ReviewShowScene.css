@@ -1,0 +1,59 @@
+.App-header {
+  background-image: url("/public/炎ロゴ2.png");
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.body{
+  background-image: url("/public/テーブル.png");
+  font-size: 30px;
+  min-height: 150vh;
+}
+
+.scroll-box {
+  background-image: url("/public/フレネル反射.jpg");
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  padding: 1px;
+  overflow-y: scroll; 
+  border: 1px solid #000;
+  background-color: #f5f5f5;
+}
+
+.post-card {
+  width: 95%;  
+  margin: 3px auto; 
+  background-image: url("/public/14199.webp");
+  color: white; 
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+
+.post-card p {
+  margin: 0;
+}
+
+.scroll-box {
+  width: 600px; 
+  height: 600px; 
+  border: 1px solid #000;
+  margin: 20px auto; 
+  padding: 10px;
+  overflow-y: scroll; 
+  background-color: #f5f5f5;
+}
