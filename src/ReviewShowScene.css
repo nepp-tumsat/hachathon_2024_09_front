@@ -1,0 +1,58 @@
+.App-header {
+  background-image: url("/public/炎ロゴ2.png");
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.body {
+  background-image: url("https://camo.qiitausercontent.com/b9beed289e8f38760e810a6ea309dd41bf546f28/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3132363134372f34353962306561342d323638622d303832332d393934352d3339663366333863656234642e676966");
+  font-size: 30px;
+  min-height: 150vh;
+}
+
+.scroll-box {
+  background-image: url("/public/フレネル反射.jpg");
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  padding: 1px;
+  overflow-y: scroll;
+  border: 1px solid #000;
+  background-color: #f5f5f5;
+}
+
+.post-card {
+  width: 95%;
+  margin: 3px auto;
+  background-image: url("/public/14199.webp");
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.post-card p {
+  margin: 0;
+}
+
+.scroll-box {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: 20px auto;
+  padding: 10px;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+}
