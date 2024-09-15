@@ -1,0 +1,26 @@
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #2bff00;
+  color: rgb(0, 150, 112);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #7c7d6c;
+  cursor: not-allowed;
+}
+
+h1 {
+  color: #333;
+}
+
