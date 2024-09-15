@@ -14,7 +14,15 @@ function App() {
 
   const posts = Array.from({ length: data ? data.length : 0}, (_, index) => ({
     id: index + 1,
-    text: data && data[index] ? (index+1)+' : '+ data[index].title : 'データがありません'
+    text: data && data[index] ? 
+    (
+      <>
+        {index + 1} &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;星評価 &nbsp; {data[index].stars} <br />
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;タイトル : {data[index].title} <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;コメント : {data[index].comment}
+      </>
+    )
+    : 'データがありません'
   }));
 
   return (
