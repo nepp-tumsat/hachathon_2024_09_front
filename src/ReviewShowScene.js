@@ -17,7 +17,7 @@ function App() {
     text: data && data[index] ? 
     (
       <>
-        {index + 1} &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;星評価 &nbsp; {data[index].stars} <br />
+        {index + 1} &nbsp;&nbsp;&nbsp;星評価 &nbsp; {data[index].stars} <br />
         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;タイトル : {data[index].title} <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;コメント : {data[index].comment}
       </>
