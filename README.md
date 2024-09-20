@@ -1,6 +1,7 @@
-# レビュー投稿機能の実装
+# 読書祭り
 
 ## こだわりポイント
+* 動きのある背景を採用し、お祭り感を演出
 * コメントだけでなく、星の評価機能実装　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 * 投稿ができなかった際にエラー表示
 
@@ -9,6 +10,7 @@
 
 ### 使用技術
 * React
+* HTML
 
 ### チーム開発で利用したツール
 * zoom　　　　　　　　　　　　　　　　　　　　　　
@@ -35,10 +37,16 @@ API側のリポジトリをクローン("https://github.com/nepp-tumsat/hachatho
 
 http://localhost:8000/docs　
 に接続してFastAPIを立ち上げる<br>
-フロント側のフォルダでnpm startを実行
+フロントのレポジトリに戻ってnpm startを実行
 
 ## 検証動画
+### レビュー投稿画面
+
 https://github.com/user-attachments/assets/9deab15b-6608-4f84-90d6-d6f255d1d644
+
+### レビュー閲覧タイムライン
+
+https://github.com/user-attachments/assets/6ce86bb3-d6c1-4101-989e-8c7b3652a60d
 
 
 ### 成果発表のスクリプト
@@ -49,3 +57,4 @@ https://www.canva.com/design/DAGQzDr0aAA/YDAewbXz_PcbodV1O1ZCFw/edit
 * デザインが少し浅い→　デザインの勉強　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 * コマンドの全体的な知識不足　　　　
 * レビューを投稿しようとしても、エラーが出てしまう
+* 投稿画面とタイムライン画面の間の遷移処理が作れなかった
