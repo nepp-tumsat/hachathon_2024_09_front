@@ -1,32 +1,20 @@
-# Getting Started with Create React App
-https://s3.ap-northeast-1-ntt.wasabisys.com/ak1520d-filenow-8/files/20240920-1058_17d7ffd5a96988abf2005052b81b0ec4.mp4?response-content-disposition=attachment
+# レビュー投稿機能の実装
 
-## Available Scripts
+## こだわりポイント
+・コメントだけでなく、星の評価機能実装　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+・投稿ができなかった際にエラー表示
 
-In the project directory, you can run:
+### 開発期間
+ハッカソンキックオフから開発を始め、1週間ほど
+### 使用技術
+React
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### チーム開発で利用したツール
+・zoom　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+・slack　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+・discord　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+・github　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+・git
 
 ### `npm run eject`
 
