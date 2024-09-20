@@ -30,4 +30,6 @@ https://www.canva.com/design/DAGQzDr0aAA/YDAewbXz_PcbodV1O1ZCFw/edit
 
 ### 反省点
 ・デザインが少し浅い→　デザインの勉強　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-・コマンドの全体的な知識不足
+・コマンドの全体的な知識不足　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+
+・レビューを投稿しようとしても、エラーが出てしまう
