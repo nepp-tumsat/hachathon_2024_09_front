@@ -1,4 +1,6 @@
 # 読書祭り
+![スクリーンショット 2024-09-21 125057](https://github.com/user-attachments/assets/3f187fbf-022b-47dc-9f9c-02a84d1e60b7)
+
 ## デモ動画
 ### レビュー投稿画面
 
