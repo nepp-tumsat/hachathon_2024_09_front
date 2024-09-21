@@ -1,4 +1,13 @@
 # 読書祭り
+## デモ動画
+### レビュー投稿画面
+
+https://github.com/user-attachments/assets/9deab15b-6608-4f84-90d6-d6f255d1d644
+
+### レビュー閲覧タイムライン
+
+https://github.com/user-attachments/assets/6ce86bb3-d6c1-4101-989e-8c7b3652a60d
+
 
 ## こだわりポイント
 * 動きのある背景を採用し、お祭り感を演出
@@ -38,16 +47,6 @@ API側のリポジトリをクローン("https://github.com/nepp-tumsat/hachatho
 http://localhost:8000/docs　
 に接続してFastAPIを立ち上げる<br>
 フロントのレポジトリに戻ってnpm startを実行
-
-## 検証動画
-### レビュー投稿画面
-
-https://github.com/user-attachments/assets/9deab15b-6608-4f84-90d6-d6f255d1d644
-
-### レビュー閲覧タイムライン
-
-https://github.com/user-attachments/assets/6ce86bb3-d6c1-4101-989e-8c7b3652a60d
-
 
 ### 成果発表のスクリプト
 
