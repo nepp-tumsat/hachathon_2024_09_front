@@ -1,5 +1,13 @@
 # レビュー投稿機能の実装
-https://github.com/user-attachments/assets/c2d7c6d3-9ff9-44f0-9492-edffd6672414
+![S__10272799](https://github.com/user-attachments/assets/c447ddc1-e61c-4436-a58e-50574878fa16)
+
+
+
+### 検証動画
+
+https://github.com/user-attachments/assets/77274bcc-125f-49cb-bce5-956af5e4629a
+
+
 
 ## こだわりポイント
 * コメントだけでなく、星の評価機能実装　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
