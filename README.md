@@ -1,4 +1,5 @@
 # レビュー投稿機能の実装
+https://github.com/user-attachments/assets/c2d7c6d3-9ff9-44f0-9492-edffd6672414
 
 ## こだわりポイント
 * コメントだけでなく、星の評価機能実装　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
@@ -20,6 +21,7 @@
 ### 実行方法
 API側のリポジトリをクローン("https://github.com/nepp-tumsat/hachathon_2024_09_API")
 以下のコマンドを実行
+```
 * docker-compose build
 * docker-compose run \
   --entrypoint "poetry init \
@@ -32,13 +34,10 @@ API側のリポジトリをクローン("https://github.com/nepp-tumsat/hachatho
 * docker-compose up -d 
 * docker-compose exec demo-app poetry add sqlalchemy aiomysql
 * docker-compose exec demo-app poetry run python -m api.migrate_db
-
+```
 http://localhost:8000/docs　
 に接続してFastAPIを立ち上げる<br>
 フロント側のフォルダでnpm startを実行
-
-## 検証動画
-https://github.com/user-attachments/assets/9deab15b-6608-4f84-90d6-d6f255d1d644
 
 
 ### 成果発表のスクリプト
